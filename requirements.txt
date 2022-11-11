@@ -97,3 +97,7 @@ lottie
 natsort
 html5lib
 AnilistPython
+python-telegram-bot
+redis
+Python_ARQ
+telethon
