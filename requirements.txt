@@ -101,3 +101,4 @@ python-telegram-bot
 redis
 Python_ARQ
 telethon
+git+https://github.com/python-telegram-bot/ptbcontrib.git@main
