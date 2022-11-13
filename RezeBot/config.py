@@ -68,6 +68,7 @@ class Config(object):
     ARQ_API_URL = ""
     TEMP_DOWNLOAD_DIRECTORY = ""
     OPENWEATHERMAP_ID = ""
+    REM_BG_API_KEY = ""
 
 
 class Production(Config):
