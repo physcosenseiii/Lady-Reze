@@ -67,7 +67,7 @@ class Config(object):
     MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     ARQ_API_URL = ""
     TEMP_DOWNLOAD_DIRECTORY = ""
-    
+    OPENWEATHERMAP_ID = ""
 
 
 class Production(Config):
