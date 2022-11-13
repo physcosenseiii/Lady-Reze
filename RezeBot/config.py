@@ -69,6 +69,7 @@ class Config(object):
     TEMP_DOWNLOAD_DIRECTORY = ""
     OPENWEATHERMAP_ID = ""
     REM_BG_API_KEY = ""
+    SESSION_STRING = ""
 
 
 class Production(Config):
