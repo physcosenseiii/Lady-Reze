@@ -66,7 +66,7 @@ class Config(object):
     ARQ_API_KEY = ""
     ERROR_LOGS = ""
     MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-    ARQ_API_URL = ""
+    ARQ_API_URL = "SYWHGG-KJNCLP-OCTUKV-YKHPSI-ARQ"
     TEMP_DOWNLOAD_DIRECTORY = ""
     OPENWEATHERMAP_ID = ""
     REM_BG_API_KEY = ""
