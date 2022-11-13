@@ -70,7 +70,7 @@ class Config(object):
     OPENWEATHERMAP_ID = ""
     REM_BG_API_KEY = ""
     SESSION_STRING = ""
-    BOT_USERNAM = "Reze_Super_Bot"
+    BOT_USERNAME = "Reze_Super_Bot"
 
 
 class Production(Config):
