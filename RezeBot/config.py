@@ -65,6 +65,7 @@ class Config(object):
     ARQ_API_KEY = ""
     ERROR_LOGS = ""
     MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    ARQ_API_URL = ""
     
 
 
