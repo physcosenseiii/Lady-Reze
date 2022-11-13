@@ -95,8 +95,7 @@ if ENV:
     API_HASH = os.environ.get("API_HASH", "194586eacda66933a17ab1e8a35d4101")
     SESSION_STRING = os.environ.get("SESSION_STRING", None)
     STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOH8Buz33WJrTP4fygeLjhXWsBGKEuaZii5NQw9TG5pdusOAK3PpGqpfO8Mf4vlX2xuHCp7O2gd29HPFRPd_JOddsKYMsA-F6W0Wq1KSRxsBmUCPP09RNUhkBtQqK2ohCXZD97R03mof55ukRAepJfiI4exiiyVgPAKQVaUIl5qzyXKMqd7ngTOYKKuAQb2GdFWupRTi9VqabommyqAmyHsJu0kvGyFaCg4STH1iJyLqfWkw5qbuM8oxSWB9_x0VQKkeDf7sXeOfx2fItnVX_N2giL-002onpdalb3UjXC3m2awMrfcGFZhj8k-MkO3BqzdwEySpYfkRTAXTJ7Cf_2CwbXws=")
-    DB_URL = os.environ.get("DATABASE_URL", "postgres://ovmujxzt:fR8weVTb_O7FCtdsA4_ytkqV0MsWx-Hk@ella.db.elephantsql.com/ovmujxzt")
-    DB_URL = DB_URL.replace("postgres://", "postgresql://", 1)
+    DB_URL = "postgressql://ovmujxzt:fR8weVTb_O7FCtdsA4_ytkqV0MsWx-Hk@ella.db.elephantsql.com/ovmujxzt"
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     ARQ_API = os.environ.get("ARQ_API", "SYWHGG-KJNCLP-OCTUKV-YKHPSI-ARQ")
