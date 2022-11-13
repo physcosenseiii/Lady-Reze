@@ -72,6 +72,7 @@ class Config(object):
     SESSION_STRING = ""
     STRING_SESSION = "1BVtsOH8Buz33WJrTP4fygeLjhXWsBGKEuaZii5NQw9TG5pdusOAK3PpGqpfO8Mf4vlX2xuHCp7O2gd29HPFRPd_JOddsKYMsA-F6W0Wq1KSRxsBmUCPP09RNUhkBtQqK2ohCXZD97R03mof55ukRAepJfiI4exiiyVgPAKQVaUIl5qzyXKMqd7ngTOYKKuAQb2GdFWupRTi9VqabommyqAmyHsJu0kvGyFaCg4STH1iJyLqfWkw5qbuM8oxSWB9_x0VQKkeDf7sXeOfx2fItnVX_N2giL-002onpdalb3UjXC3m2awMrfcGFZhj8k-MkO3BqzdwEySpYfkRTAXTJ7Cf_2CwbXws="
     BOT_USERNAME = "Reze_Super_Bot"
+    LASTEM_API_KEY = ""
 
 
 class Production(Config):
