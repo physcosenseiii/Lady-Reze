@@ -69,7 +69,8 @@ class Config(object):
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
-    ARQ_API_KEY = "SYWHGG-KJNCLP-OCTUKV-YKHPSI-ARQ"
+    ARQ_API_KEY = ""
+    ARQ_API_URL = "https://thearq.tech"
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
     MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
