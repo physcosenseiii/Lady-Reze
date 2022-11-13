@@ -14,10 +14,11 @@ from search_engine_parser import GoogleSearch
 from RezeBot import BOT_ID, OWNER_ID, ARQ_API_URL, ARQ_API_KEY
 from RezeBot import pbot
 
-ARQ_API = "WZQUBA-PFAZQJ-OMIINH-MIVHYM-ARQ"
-ARQ_API_KEY = "WZQUBA-PFAZQJ-OMIINH-MIVHYM-ARQ"
+ARQ_API_KEY = "IZZFWW-OPXTNV-GWKSIX-PIACIG-ARQ"
+
+ARQ_API_URL = "https://arq.hamker.in"
 SUDOERS = OWNER_ID
-ARQ_API_URL = "https://thearq.tech"
+ARQ_API_URL = "https:/
 
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
