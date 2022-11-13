@@ -18,7 +18,6 @@ ARQ_API_KEY = "IZZFWW-OPXTNV-GWKSIX-PIACIG-ARQ"
 
 ARQ_API_URL = "https://arq.hamker.in"
 SUDOERS = OWNER_ID
-ARQ_API_URL = "https:/
 
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
