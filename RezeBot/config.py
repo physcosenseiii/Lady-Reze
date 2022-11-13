@@ -59,6 +59,11 @@ class Config(object):
     AI_API_KEY = 'awoo'  #For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
+    ALLOW-CHATS = ""
+    HEROKU_API_KEY = ""
+    HEROKU_APP_NAME = ""
+    ARQ_API_KAEY = ""
+    
 
 
 class Production(Config):
