@@ -75,6 +75,7 @@ class Config(object):
     SPAMMERS = None
     MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     REM_BG_API_KEY = "xYCR1ZyK3ZsofjH7Y6hPcyzC"
+    HEROKU_API_KEY = ""
     OPENWEATHERMAP_ID = "887da2c60d9f13fe78b0f9d0c5cbaade"
     TEMP_DOWNLOAD_DIRECTORY = ""
 
