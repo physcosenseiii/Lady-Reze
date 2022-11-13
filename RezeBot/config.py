@@ -66,7 +66,7 @@ class Config(object):
     ERROR_LOGS = ""
     MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     ARQ_API_URL = ""
-    TEMO_DOWNLOAD_DIRECTORY = ""
+    TEMP_DOWNLOAD_DIRECTORY = ""
     
 
 
