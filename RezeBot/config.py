@@ -64,6 +64,7 @@ class Config(object):
     HEROKU_APP_NAME = ""
     ARQ_API_KAEY = ""
     ERROR_LOGS = ""
+    MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     
 
 
