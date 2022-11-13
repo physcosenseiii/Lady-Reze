@@ -63,6 +63,7 @@ class Config(object):
     HEROKU_API_KEY = ""
     HEROKU_APP_NAME = ""
     ARQ_API_KAEY = ""
+    ERROR_LOGS = ""
     
 
 
