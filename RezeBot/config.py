@@ -62,6 +62,7 @@ class Config(object):
     ALLOW_CHATS = ""
     HEROKU_API_KEY = ""
     HEROKU_APP_NAME = ""
+    TOKEN = "5247464198:AAEmP1JJowbfSFHM4hQ72feL-a5akq-igrE"
     ARQ_API_KEY = ""
     ERROR_LOGS = ""
     MONGO_DB_URI = "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
