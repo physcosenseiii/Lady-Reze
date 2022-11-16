@@ -88,7 +88,7 @@ if ENV:
     EVENT_LOGS = os.environ.get("EVENT_LOGS", "-1001545227881")
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
     URL = os.environ.get("URL", "")  # Does not contain token
-    PORT = int(os.environ.get("PORT", 5000))
+    PORT = "5000"
     CERT_PATH = os.environ.get("CERT_PATH")
     REDIS_URL = os.environ.get("REDIS_URL", 'redis://:DKe3IlMl6NNgjbfbluQHTJypJ3Y2Sqdd@redis-15722.c280.us-central1-2.gce.cloud.redislabs.com:15722')
     API_ID = os.environ.get("API_ID", "11557162")
