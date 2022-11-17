@@ -123,4 +123,4 @@ async def chat_info_func(_, message: Message):
         await m.edit(e)
 
 
-__mod_name__ = "★ ᴘɪɴғᴏ ★"
+__mod_name__ = "🤍 ᴘɪɴғᴏ 🤍"

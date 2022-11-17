@@ -293,7 +293,7 @@ dispatcher.add_handler(MOONANIMATION_HANDLER)
 dispatcher.add_handler(CLOCKANIMATION_HANDLER)
 dispatcher.add_handler(BLOCKANIMATION_HANDLER)
 
-__mod_name__ = "★ ᴀɴɪᴍᴀᴛɪᴏɴ ★"
+__mod_name__ = "🤍 ᴀɴɪᴍᴀᴛɪᴏɴ 🤍"
 __command_list__ = [
     "love",
     "hack",

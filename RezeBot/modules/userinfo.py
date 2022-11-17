@@ -352,11 +352,11 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "★ sᴜᴘᴘᴏʀᴛ ★", url="https://t.me/Zeke_grp"),
+                                "🤍 sᴜᴘᴘᴏʀᴛ 🤍", url="https://t.me/Zeke_grp"),
                             InlineKeyboardButton(
-                                "★ ᴅɪsᴀsᴛᴇʀs ★", url="https://t.me/Reze_Updates/3"),
+                                "🤍 ᴅɪsᴀsᴛᴇʀs 🤍", url="https://t.me/Reze_Updates/3"),
                             InlineKeyboardButton(
-                                "★ ᴜsᴇʀ ★", url=f"https://t.me/{html.escape(user.username)}")
+                                "🤍 ᴜsᴇʀ 🤍", url=f"https://t.me/{html.escape(user.username)}")
                         ],
                     ]
                 ),
@@ -372,11 +372,11 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "★ sᴜᴘᴘᴏʀᴛ ★", url="https://t.me/Zeke_grp"),
+                                "🤍 sᴜᴘᴘᴏʀᴛ 🤍", url="https://t.me/Zeke_grp"),
                             InlineKeyboardButton(
-                                "★ ᴅɪsᴀsᴛᴇʀs ★", url="https://t.me/Reze_Updates/3"),
+                                "🤍 ᴅɪsᴀsᴛᴇʀs 🤍", url="https://t.me/Reze_Updates/3"),
                             InlineKeyboardButton(
-                                "★ ᴜsᴇ★", url=f"https://t.me/{html.escape(user.username)}")
+                                "🤍 ᴜsᴇ🤍", url=f"https://t.me/{html.escape(user.username)}")
                         ],
                     ]
                 ),
@@ -595,7 +595,7 @@ dispatcher.add_handler(GET_BIO_HANDLER)
 dispatcher.add_handler(SET_ABOUT_HANDLER)
 dispatcher.add_handler(GET_ABOUT_HANDLER)
 
-__mod_name__ = "★ ɪɴғᴏ & ᴀғᴋ ★"
+__mod_name__ = "🤍 ɪɴғᴏ & ᴀғᴋ 🤍"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
 __handlers__ = [
     ID_HANDLER,

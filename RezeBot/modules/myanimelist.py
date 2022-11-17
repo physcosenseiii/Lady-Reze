@@ -188,7 +188,7 @@ def manga(update: Update, context: CallbackContext):
         )
 
 
-__mod_name__ = "★ ᴍʏᴀɴɪᴍᴇʟɪsᴛ ★"
+__mod_name__ = "🤍 ᴍʏᴀɴɪᴍᴇʟɪsᴛ 🤍"
 
 
 ANIME_HANDLER = CommandHandler("manime", anime, pass_args=True, run_async=True)

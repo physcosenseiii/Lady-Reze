@@ -5,4 +5,4 @@ def helps(chat):
     return gs(chat, "tools_help")
 
 
-__mod_name__ = "★ ᴛᴏᴏʟs ★"
+__mod_name__ = "🤍 ᴛᴏᴏʟs 🤍"

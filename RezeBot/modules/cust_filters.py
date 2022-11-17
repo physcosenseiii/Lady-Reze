@@ -610,7 +610,7 @@ def __chat_settings__(chat_id, user_id):
 def helps(chat):
     return gs(chat, "filters_help")
 
-__mod_name__ = "★ ғɪʟᴛᴇʀs​ ★"
+__mod_name__ = "🤍 ғɪʟᴛᴇʀs​ 🤍"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)

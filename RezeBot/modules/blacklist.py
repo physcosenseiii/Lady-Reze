@@ -453,7 +453,7 @@ def __stats__():
 def helps(chat):
     return gs(chat, "blacklist_help")
 
-__mod_name__ = "★ ʙʟᴀᴄᴋʟɪsᴛ​ ★"
+__mod_name__ = "🤍 ʙʟᴀᴄᴋʟɪsᴛ​ 🤍"
 
 BLACKLIST_HANDLER = DisableAbleCommandHandler(
     "blacklist",

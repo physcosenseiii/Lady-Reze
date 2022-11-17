@@ -85,4 +85,4 @@ async def cancel_spam(event):
       pass
     return await event.respond('Stopped.')
 
-__mod_name__ = "★ ᴍᴇɴᴛɪᴏɴs ★"
+__mod_name__ = "🤍 ᴍᴇɴᴛɪᴏɴs 🤍"

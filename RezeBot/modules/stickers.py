@@ -764,7 +764,7 @@ __help__ = """
 Please Use 512/512 size Sticker to kang else it will cause internal problem.
 And sometimes video sticker might not kang because of more Size than 512/512.
 """
-__mod_name__ = "★ sᴛɪᴄᴋᴇʀs ★" 
+__mod_name__ = "🤍 sᴛɪᴄᴋᴇʀs 🤍" 
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid, run_async=True)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker, run_async=True)
 GETVIDSTICKER_HANDLER = DisableAbleCommandHandler("getvidsticker", getvidsticker, run_async=True)
