@@ -74,4 +74,4 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
         await message.reply_text(e)
 
 
-__mod_name__ = "🤍 ᴄᴏᴜᴘʟᴇs 🤍"
+__mod_name__ = "  ᴄᴏᴜᴘʟᴇs  "

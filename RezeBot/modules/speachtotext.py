@@ -86,4 +86,4 @@ async def _(event):
     else:
         await event.reply("Reply to a voice message, to get the text out of it.")
 
-__mod_name__ = "🤍 ᴛᴛs/sᴛᴛ 🤍"
+__mod_name__ = "  ᴛᴛs/sᴛᴛ  "

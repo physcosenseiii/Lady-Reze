@@ -23,7 +23,7 @@ from pyrogram.types import Message
 from RezeBot import pbot as app
 from RezeBot.utils.errors import capture_err
 
-__mod_name__ = "🤍 ᴡᴇʙsʜᴏᴛ​ 🤍"
+__mod_name__ = "  ᴡᴇʙsʜᴏᴛ​  "
 
 
 @app.on_message(filters.command("webss"))

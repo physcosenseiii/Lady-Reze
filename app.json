@@ -201,7 +201,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "✌️🤍 I ᴀᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ 🤍✌️"
+         "value": "✌️  I ᴀᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ  ✌️"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",

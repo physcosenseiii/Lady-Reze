@@ -340,7 +340,7 @@ if is_module_loaded(FILENAME):
     dispatcher.add_handler(COMMANDS_HANDLER)
     dispatcher.add_handler(TOGGLE_HANDLER)
 
-    __mod_name__ = "🤍 ᴅɪsᴀʙʟɪɴɢ​ 🤍"
+    __mod_name__ = "  ᴅɪsᴀʙʟɪɴɢ​  "
 
 else:
     DisableAbleCommandHandler = CommandHandler

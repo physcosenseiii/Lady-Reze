@@ -96,4 +96,4 @@ async def rm_deletedacc(show):
         )
     await memek.edit(del_status)
 
-__mod_name__ = "🤍 ᴢᴏᴍʙɪᴇs​ 🤍"
+__mod_name__ = "  ᴢᴏᴍʙɪᴇs​  "
