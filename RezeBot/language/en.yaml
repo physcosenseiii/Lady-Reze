@@ -69,7 +69,7 @@ pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 group_help_text: "Contact me in PM to get the list of possible commands."
 group_help_modules_text: "Contact me in PM to get help of *{}*"
 # Group Help Button
-group_help_button: "  ʜᴇʟᴘ  "
+group_help_button: "🤍 ʜᴇʟᴘ 🤍"
 # PM Settings
 pm_settings_personal_text: "These are your current settings: "
 pm_settings_group_text: "Which module would you like to check {}'s settings for?"
@@ -79,9 +79,10 @@ pm_settings_groupss_text: |
 # Group Settings Text
 group_settings_text: "Click here to get this chat's settings, as well as yours."
 # Group Settings Button
-group_settings_button: "  sᴇᴛᴛɪɴɢs  "
+group_settings_button: "🤍 sᴇᴛᴛɪɴɢs 🤍"
 
 # PM Button
+<<<<<<< HEAD
 <<<<<<< HEAD
 add_bot_to_group_button: "  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  "
 support_chat_link_button: "  sᴜᴘᴘᴏʀᴛ  "
@@ -93,6 +94,8 @@ back_button: "  ɢᴏ ʙᴀᴄᴋ  "
 about_button: "  ᴀʙᴏᴜᴛ ʀᴇᴢᴇ ʀᴏʙᴏᴛ  "
 inline_button: "  ᴛʀʏ ɪɴʟɪɴᴇ!  "
 =======
+=======
+>>>>>>> parent of 3d19d26 (Change Emoji)
 add_bot_to_group_button: "🤍 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🤍"
 support_chat_link_button: "🤍 sᴜᴘᴘᴏʀᴛ 🤍"
 updates_channel_link_button: "🤍 ᴜᴘᴅᴀᴛᴇ 🤍"
@@ -101,7 +104,11 @@ source_button: "🤍 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🤍"
 help_button: "🤍 ɢᴇᴛ ʜᴇʟᴘ 🤍"
 back_button: "🤍 ɢᴏ ʙᴀᴄᴋ 🤍"
 about_button: "🤍 ᴀʙᴏᴜᴛ ʀᴇᴢᴇ ʀᴏʙᴏᴛ 🤍"
+<<<<<<< HEAD
 >>>>>>> d8ea734f7028c06b79fb51bbf86f413e5631392c
+=======
+inline_button: "🤍 ᴛʀʏ ɪɴʟɪɴᴇ! 🤍"
+>>>>>>> parent of 3d19d26 (Change Emoji)
 
 # MODULES
 admin_help: |

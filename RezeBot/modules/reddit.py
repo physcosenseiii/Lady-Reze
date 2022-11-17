@@ -22,7 +22,7 @@ from pyrogram import filters
 from RezeBot import pbot as app, arq
 from RezeBot.utils.errors import capture_err
 
-__mod_name__ = "  ʀᴇᴅᴅɪᴛ​  "
+__mod_name__ = "🤍 ʀᴇᴅᴅɪᴛ​ 🤍"
 
 
 @app.on_message(filters.command("reddit") & ~filters.edited)

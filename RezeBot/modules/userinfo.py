@@ -254,20 +254,20 @@ def info(update: Update, context: CallbackContext):
 
     text = (
         f"╔═━「<b> Appraisal results:</b> 」\n"
-        f" ID: <code>{user.id}</code>\n"
-        f" First Name: {html.escape(user.first_name)}"
+        f"🤍ID: <code>{user.id}</code>\n"
+        f"🤍First Name: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
-        text += f"\n Last Name: {html.escape(user.last_name)}"
+        text += f"\n🤍Last Name: {html.escape(user.last_name)}"
 
     if user.username:
-        text += f"\n Username: @{html.escape(user.username)}"
+        text += f"\n🤍Username: @{html.escape(user.username)}"
 
-    text += f"\n Userlink: {mention_html(user.id, 'link')}"
+    text += f"\n🤍Userlink: {mention_html(user.id, 'link')}"
 
     if chat.type != "private" and user_id != bot.id:
-        _stext = "\n Presence: <code>{}</code>"
+        _stext = "\n🤍Presence: <code>{}</code>"
 
         afk_st = is_afk(user.id)
         if afk_st:
@@ -283,12 +283,12 @@ def info(update: Update, context: CallbackContext):
                     text += _stext.format("Admin")
     if user_id not in [bot.id, 777000, 1087968824]:
         userhp = hpmanager(user)
-        text += f"\n\n <b>Health:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]"
+        text += f"\n\n🤍<b>Health:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]"
 
     try:
         spamwtc = sw.get_ban(int(user.id))
         if spamwtc:
-            text += "\n\n <b>This person is Spamwatched!</b>"
+            text += "\n\n🤍<b>This person is Spamwatched!</b>"
             text += f"\nReason: <pre>{spamwtc.reason}</pre>"
             text += "\nAppeal at @SpamWatchSupport"
     except:
@@ -297,13 +297,13 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\n  The Disaster level of this person is 'Chainsaw Devil AKA Owner'. "
+        text += "\n\n🤍🤍The Disaster level of this person is 'Chainsaw Devil AKA Owner'.🤍"
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\n This user is A S Class Devil'."
+        text += "\n\n🤍This user is A S Class Devil'."
         disaster_level_present = True
     elif user.id == 953362604:
-        text += "\n\n  This user is A God Hunter  '."
+        text += "\n\n🤍🤍This user is A God Hunter🤍🤍'."
         disaster_level_present = True    
     elif user.id in DRAGONS:
         text += "\n\nThis User is a A Class Devil."
@@ -352,11 +352,11 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "  sᴜᴘᴘᴏʀᴛ  ", url="https://t.me/Zeke_grp"),
+                                "🤍 sᴜᴘᴘᴏʀᴛ 🤍", url="https://t.me/Zeke_grp"),
                             InlineKeyboardButton(
-                                "  ᴅɪsᴀsᴛᴇʀs  ", url="https://t.me/Reze_Updates/3"),
+                                "🤍 ᴅɪsᴀsᴛᴇʀs 🤍", url="https://t.me/Reze_Updates/3"),
                             InlineKeyboardButton(
-                                "  ᴜsᴇʀ  ", url=f"https://t.me/{html.escape(user.username)}")
+                                "🤍 ᴜsᴇʀ 🤍", url=f"https://t.me/{html.escape(user.username)}")
                         ],
                     ]
                 ),
@@ -372,11 +372,11 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "  sᴜᴘᴘᴏʀᴛ  ", url="https://t.me/Zeke_grp"),
+                                "🤍 sᴜᴘᴘᴏʀᴛ 🤍", url="https://t.me/Zeke_grp"),
                             InlineKeyboardButton(
-                                "  ᴅɪsᴀsᴛᴇʀs  ", url="https://t.me/Reze_Updates/3"),
+                                "🤍 ᴅɪsᴀsᴛᴇʀs 🤍", url="https://t.me/Reze_Updates/3"),
                             InlineKeyboardButton(
-                                "  ᴜsᴇ ", url=f"https://t.me/{html.escape(user.username)}")
+                                "🤍 ᴜsᴇ🤍", url=f"https://t.me/{html.escape(user.username)}")
                         ],
                     ]
                 ),
@@ -595,7 +595,7 @@ dispatcher.add_handler(GET_BIO_HANDLER)
 dispatcher.add_handler(SET_ABOUT_HANDLER)
 dispatcher.add_handler(GET_ABOUT_HANDLER)
 
-__mod_name__ = "  ɪɴғᴏ & ᴀғᴋ  "
+__mod_name__ = "🤍 ɪɴғᴏ & ᴀғᴋ 🤍"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
 __handlers__ = [
     ID_HANDLER,
