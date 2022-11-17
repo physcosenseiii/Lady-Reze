@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-        REZESTART = "https://te.legra.ph/file/f04bf58087272a829e3d3.mp4"
+        REZESTART = "https://telegra.ph/file/be30ef88ab4d966f055ee.mp4"
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
            REZESTART, caption= "<b>𝙺𝚘𝚗'𝚗𝚒𝚌𝚑𝚒𝚠𝚊 {} 𝚋𝚊𝚔𝚊,𝙸'𝚖 Reze !!. 𝙷𝚘𝚠 𝚊𝚛𝚎 𝚢𝚘𝚞  ?\n𝙰𝚕𝚒𝚟𝚎 𝚜𝚒𝚗𝚌𝚎 since</b>: <code>{}</code>".format(
@@ -807,7 +807,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**[I'm Alive ❤️.](https://te.legra.ph/file/e8ab42ae0e1ef4acda1fe.jpg)**""",
+                f"""**[Aara Aara I'm Alive ❤️.](https://telegra.ph/file/be30ef88ab4d966f055ee.mp4)**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
