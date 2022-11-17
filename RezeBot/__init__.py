@@ -291,7 +291,7 @@ async def eor(msg: Message, **kwargs):
     spec = getfullargspec(func.__wrapped__).args
     return await func(**{k: v for k, v in kwargs.items() if k in spec})
 
-REDIS_URL = "redis://:DKe3IlMl6NNgjbfbluQHTJypJ3Y2Sqdd@redis-15722.c280.us-central1-2.gce.cloud.redislabs.com:1572"
+REDIS_URL = "redis://default:ixqUfqicsHhILHpwbe4FNHNzs8P6qdQ6@redis-12115.c124.us-central1-1.gce.cloud.redislabs.com:12115/reze"
 REDIS = StrictRedis.from_url(REDIS_URL,decode_responses=True)
 try:
     REDIS.ping()
