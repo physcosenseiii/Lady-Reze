@@ -90,7 +90,7 @@ if ENV:
     URL = os.environ.get("URL", "")  # Does not contain token
     PORT = 5000
     CERT_PATH = os.environ.get("CERT_PATH")
-    REDIS_URL = os.environ.get("REDIS_URL", 'redis://default:ixqUfqicsHhILHpwbe4FNHNzs8P6qdQ6@redis-12115.c124.us-central1-1.gce.cloud.redislabs.com:12115/reze')
+    REDIS_URL = "redis://default:ixqUfqicsHhILHpwbe4FNHNzs8P6qdQ6@redis-12115.c124.us-central1-1.gce.cloud.redislabs.com:12115/reze"
     API_ID = os.environ.get("API_ID", "11557162")
     API_HASH = os.environ.get("API_HASH", "194586eacda66933a17ab1e8a35d4101")
     SESSION_STRING = os.environ.get("SESSION_STRING", None)
@@ -176,6 +176,7 @@ else:
     API_HASH = Config.API_HASH
     ERROR_LOGS = Config.ERROR_LOGS
     DB_URL = Config.SQLALCHEMY_DATABASE_URI
+    REDIS_URL = Config.REDIS_URL
     MONGO_DB_URI = Config.MONGO_DB_URI
     ARQ_API = Config.ARQ_API_KEY
     ARQ_API_URL = Config.ARQ_API_URL
