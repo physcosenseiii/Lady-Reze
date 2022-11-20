@@ -19,8 +19,11 @@ from pyrogram import Client, errors
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid, ChannelInvalid
 from pyrogram.types import Chat, User
 from ptbcontrib.postgres_persistence import PostgresPersistence
+import keep_alive
 
 StartTime = time.time()
+
+keep_alive.keep_alive()
 
 def get_user_list(__init__, key):
     with open("{}/RezeBot/{}".format(os.getcwd(), __init__), "r") as json_file:
