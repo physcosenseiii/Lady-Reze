@@ -97,7 +97,7 @@ def log(update: Update, context: CallbackContext):
     message.reply_text(math.log(int(args[0])))
 
 
-__mod_name__ = "🤍 ᴍᴀᴛʜ 🤍"
+__mod_name__ = "⋆ ᴍᴀᴛʜ ⋆"
 
 SIMPLIFY_HANDLER = DisableAbleCommandHandler("math", simplify, run_async=True)
 FACTOR_HANDLER = DisableAbleCommandHandler("factor", factor, run_async=True)
