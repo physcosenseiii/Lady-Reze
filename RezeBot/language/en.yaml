@@ -10,17 +10,17 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *ʜᴇʏ ᴅᴀʀʟɪɴɢ, {} ❤️*
-  ➼ ɪ'ᴍ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ ᴡɪᴛʜ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs [✨](https://telegra.ph/file/be30ef88ab4d966f055ee.mp4)
+  ➼ ɪ'ᴍ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ ᴡɪᴛʜ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs [✨](https://te.legra.ph/file/ce935696935a8f575fee0.jpg)
 
-  ┏━━━━━━━━•━━━━━━━•━━━━━━━━┓
-   *sᴇʀᴠᴇʀ ᴜᴘᴛɪᴍᴇ :* `{}`
-   `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *ᴄʜᴀᴛs.*
-  ┗━━━━━━━━•━━━━━━━•━━━━━━━━┛
+  ┏━━━━━━━━•-----•━━━━━━━━┓
+  × *sᴇʀᴠᴇʀ ᴜᴘᴛɪᴍᴇ :* `{}`
+  × `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss* `{}` *ᴄʜᴀᴛs.*
+  ┗━━━━━━━━•-----•━━━━━━━━┛
 
   ➼ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
    
 group_start_text: |
-  *👋🏻 Hi Darling, I'm Reze*
+  *👋🏻 Hi Darling, I'm Reze Robot!*
   
   *Started active since :* `{}`
 
@@ -62,14 +62,14 @@ pm_about_credit_text: |
 
   Here Developers Making And Give Inspiration For Made The Reze Robot
 pm_help_text: |
-  *✦ Specifics Commands ✦*
+  *✦ Click on the button bellow to get specifics command ✦*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
 group_help_text: "Contact me in PM to get the list of possible commands."
 group_help_modules_text: "Contact me in PM to get help of *{}*"
 # Group Help Button
-group_help_button: " ʜᴇʟᴘ "
+group_help_button: "★ ʜᴇʟᴘ ★"
 # PM Settings
 pm_settings_personal_text: "These are your current settings: "
 pm_settings_group_text: "Which module would you like to check {}'s settings for?"
@@ -79,18 +79,18 @@ pm_settings_groupss_text: |
 # Group Settings Text
 group_settings_text: "Click here to get this chat's settings, as well as yours."
 # Group Settings Button
-group_settings_button: " sᴇᴛᴛɪɴɢs "
+group_settings_button: "★ sᴇᴛᴛɪɴɢs ★"
 
 # PM Button
-add_bot_to_group_button: "  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  "
-support_chat_link_button: "  sᴜᴘᴘᴏʀᴛ  "
-updates_channel_link_button: "  ᴜᴘᴅᴀᴛᴇ  "
-notes_button: "  ɴᴏᴛᴇs  "
-source_button: "  sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  "
-help_button: "  ɢᴇᴛ ʜᴇʟᴘ  "
-back_button: "  ɢᴏ ʙᴀᴄᴋ  "
-about_button: "  ᴀʙᴏᴜᴛ ʀᴇᴢᴇ ʀᴏʙᴏᴛ  "
-inline_button: " ᴛʀʏ ɪɴʟɪɴᴇ "
+add_bot_to_group_button: "★ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ★"
+support_chat_link_button: "★ sᴜᴘᴘᴏʀᴛ ★"
+updates_channel_link_button: "★ ᴜᴘᴅᴀᴛᴇ ★"
+notes_button: "★ ɴᴏᴛᴇs ★"
+source_button: "★ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ★"
+help_button: "★ ɢᴇᴛ ʜᴇʟᴘ ★"
+back_button: "★ ɢᴏ ʙᴀᴄᴋ ★"
+about_button: "★ ᴀʙᴏᴜᴛ ʀᴇᴢᴇ ʀᴏʙᴏᴛ ★"
+inline_button: "★ ᴛʀʏ ɪɴʟɪɴᴇ! ★"
 
 # MODULES
 admin_help: |
