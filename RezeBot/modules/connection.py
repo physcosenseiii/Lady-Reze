@@ -403,7 +403,7 @@ def connect_button(update, context):
 def helps(chat):
     return gs(chat, "connection_help")
 
-__mod_name__ = "⋆ ᴄᴏɴɴᴇᴄᴛɪᴏɴ​ ⋆"
+__mod_name__ = "🤍 ᴄᴏɴɴᴇᴄᴛɪᴏɴ​ 🤍"
 
 CONNECT_CHAT_HANDLER = CommandHandler(
     "connect", connect_chat, pass_args=True, run_async=True

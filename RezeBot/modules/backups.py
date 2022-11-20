@@ -376,7 +376,7 @@ def get_chat(chat_id, chat_data):
         return {"status": False, "value": False}
 
 
-__mod_name__ = "⋆ ʙᴀᴄᴋᴜᴘs​ ⋆"
+__mod_name__ = "🤍 ʙᴀᴄᴋᴜᴘs​ 🤍"
 
 IMPORT_HANDLER = CommandHandler("import", import_data, run_async=True)
 EXPORT_HANDLER = CommandHandler(

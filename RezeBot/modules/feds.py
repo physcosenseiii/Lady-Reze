@@ -2383,7 +2383,7 @@ def fed_user_help(update: Update, context: CallbackContext):
     )
 
 
-__mod_name__ = "⋆ ғᴇᴅᴇʀᴀᴛɪᴏɴs​ ⋆"
+__mod_name__ = "🤍 ғᴇᴅᴇʀᴀᴛɪᴏɴs​ 🤍"
 
 
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed, run_async=True)

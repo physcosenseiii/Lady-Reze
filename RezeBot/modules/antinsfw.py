@@ -9,7 +9,7 @@ from RezeBot.utils.permissions import adminsOnly
 from RezeBot.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 from RezeBot.utils.filter_groups import nsfw_detect_group
 
-__mod_name__ = "⋆ ᴀɴᴛɪ-ɴsғᴡ​ ⋆ ​"
+__mod_name__ = "🤍 ᴀɴᴛɪ-ɴsғᴡ​ 🤍 ​"
 
 async def get_file_id_from_message(message):
     file_id = None

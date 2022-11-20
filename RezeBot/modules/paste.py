@@ -12,7 +12,7 @@ from RezeBot import pbot as app
 from RezeBot.utils.errors import capture_err
 from RezeBot.utils.pastebin import paste
 
-__mod_name__ = "⋆ ᴘᴀsᴛᴇ​ ⋆"
+__mod_name__ = "🤍 ᴘᴀsᴛᴇ​ 🤍"
 
 pattern = re.compile(
     r"^text/|json$|yaml$|xml$|toml$|x-sh$|x-shellscript$"

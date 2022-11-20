@@ -83,6 +83,6 @@ DEL_HANDLER = delete_messages, events.NewMessage(pattern="^[!/]del$")
 telethn.add_event_handler(*PURGE_HANDLER)
 telethn.add_event_handler(*DEL_HANDLER)
 
-__mod_name__ = "⋆ ᴘᴜʀɢᴇs​ ⋆"
+__mod_name__ = "🤍 ᴘᴜʀɢᴇs​ 🤍"
 __command_list__ = ["del", "purge"]
 __handlers__ = [PURGE_HANDLER, DEL_HANDLER]
