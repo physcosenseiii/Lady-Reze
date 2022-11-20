@@ -297,13 +297,13 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\n🤍🤍The Disaster level of this person is 'Chainsaw Devil AKA Owner'.🤍"
+        text += "\n\n🤍The Disaster level of this person is 'Chainsaw Devil'.🤍"
         disaster_level_present = True
     elif user.id in DEV_USERS:
         text += "\n\n🤍This user is A S Class Devil'."
         disaster_level_present = True
     elif user.id == 953362604:
-        text += "\n\n🤍🤍This user is A God Hunter🤍🤍'."
+        text += "\n\n🤍This user is A God Hunter🤍'."
         disaster_level_present = True    
     elif user.id in DRAGONS:
         text += "\n\nThis User is a A Class Devil."
@@ -352,11 +352,11 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "🤍 sᴜᴘᴘᴏʀᴛ 🤍", url="https://t.me/Zeke_grp"),
+                                "sᴜᴘᴘᴏʀᴛ", url="https://t.me/Zeke_grp"),
                             InlineKeyboardButton(
-                                "🤍 ᴅɪsᴀsᴛᴇʀs 🤍", url="https://t.me/Reze_Updates/3"),
+                                "ᴅɪsᴀsᴛᴇʀs", url="https://t.me/Reze_Updates/3"),
                             InlineKeyboardButton(
-                                "🤍 ᴜsᴇʀ 🤍", url=f"https://t.me/{html.escape(user.username)}")
+                                "ᴜsᴇʀ", url=f"https://t.me/{html.escape(user.username)}")
                         ],
                     ]
                 ),
