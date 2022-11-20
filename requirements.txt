@@ -80,7 +80,7 @@ nekos.py
 motor
 gpytranslate
 numpy==1.22.2
-fonttools==4.31.2
+fonttools==4.38.0
 opencv-python-headless==4.5.5.62
 odmantic
 tzlocal
