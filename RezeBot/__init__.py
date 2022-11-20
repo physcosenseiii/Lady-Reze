@@ -21,8 +21,6 @@ from pyrogram.types import Chat, User
 from ptbcontrib.postgres_persistence import PostgresPersistence
 import keep_alive
 
-StartTime = time.time()
-
 keep_alive.keep_alive()
 
 def get_user_list(__init__, key):
