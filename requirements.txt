@@ -70,6 +70,7 @@ pytz
 jikanpy
 tswift
 python-arq
+flask
 envparse
 #profanity (Credits to Julia)
 better_profanity
