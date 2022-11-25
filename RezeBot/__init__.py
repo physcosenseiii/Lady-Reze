@@ -55,7 +55,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 9:
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
-    TOKEN = "5247464198:AAEmP1JJowbfSFHM4hQ72feL-a5akq-igrE"
+    TOKEN = "5247464198:AAESV3BBvVxcLoVeEqeIvqkXsiw-cfQkFGA"
 
     try:
         OWNER_ID = int(os.environ.get("OWNER_ID", None))
@@ -97,7 +97,7 @@ if ENV:
     API_ID = os.environ.get("API_ID", "11557162")
     API_HASH = os.environ.get("API_HASH", "194586eacda66933a17ab1e8a35d4101")
     SESSION_STRING = os.environ.get("SESSION_STRING", None)
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOH8Buz33WJrTP4fygeLjhXWsBGKEuaZii5NQw9TG5pdusOAK3PpGqpfO8Mf4vlX2xuHCp7O2gd29HPFRPd_JOddsKYMsA-F6W0Wq1KSRxsBmUCPP09RNUhkBtQqK2ohCXZD97R03mof55ukRAepJfiI4exiiyVgPAKQVaUIl5qzyXKMqd7ngTOYKKuAQb2GdFWupRTi9VqabommyqAmyHsJu0kvGyFaCg4STH1iJyLqfWkw5qbuM8oxSWB9_x0VQKkeDf7sXeOfx2fItnVX_N2giL-002onpdalb3UjXC3m2awMrfcGFZhj8k-MkO3BqzdwEySpYfkRTAXTJ7Cf_2CwbXws=")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOMMBu5n4CkdBNN-68joNLIt4iwQQJmS_PmTKqfOPkYJgdJuhMqXe-_VIir_Lqb9iXprL8kfeXzzlzTVufNVSxD40fSQstA8LRJhgYHh3JSPNwmFlFjgRIwQyV9_KMCVKRcATG-U7vnkh0HL2ZEla6CaIASsD7DXo4nUOHxkGKECRjbIChqbypXA01oKkO4P1uD_DbTSNDNpzd5k8zEuNo25fICyZYSA5mrHHAMIptqz53wufBaj69SqSOlmCGYpNi4l9WyecPJrX8-hnaSHRnJGwcAN978c4lS9nZN1EsastoeGhVAlFn7_4UA_-0tY8dtSSzmpw5hldTitSemkgWh--G9o=")
     DB_URL = "postgresql://ovmujxzt:fR8weVTb_O7FCtdsA4_ytkqV0MsWx-Hk@ella.db.elephantsql.com/ovmujxzt"
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://reze:reze123@rezerobot.p8epm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
