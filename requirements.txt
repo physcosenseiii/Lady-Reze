@@ -79,7 +79,7 @@ nudepy
 nekos.py
 motor
 gpytranslate
-numpy==1.22.2
+numpy==1.24.0
 fonttools==4.31.2
 opencv-python-headless==4.5.5.62
 odmantic
