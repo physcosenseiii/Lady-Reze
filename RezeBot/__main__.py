@@ -212,7 +212,6 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
                             InlineKeyboardButton(
@@ -411,8 +410,7 @@ def reze_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="reze_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),                            
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="http://t.me/Reze_Super_bot?startgroup=true"),
@@ -518,8 +516,7 @@ def Source_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="reze_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),                            
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="http://t.me/Reze_Super_bot?startgroup=true"),
